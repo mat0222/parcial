@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+*{
+    
+    font-weight: 300;
+}
+
+.fondo{
+    background-image: url(./imagenes/fondops2.jpg);
+    background-size:100%;
+
+}
+
+.nav-item{
+    font-family: Pixelify Sans, 'sans-serif';
+    color: black;
+}
+
+.nav-link{
+    font-family: Pixelify Sans, 'sans-serif';
+}
+
+.navbar-brand{
+    font-family: Pixelify Sans, 'sans-serif';
+}
+
+.intro{
+    text-align: center;
+    color: black;
+    font-family: Pixelify Sans, 'sans-serif';
+    font-size: 50px;
+    animation: colores 3s;
+
+}
+
+.introduccion{
+    color: black;
+    font-family: Pixelify Sans, 'sans-serif';
+    font-size: 40px;
+}
+
+.introducciontext{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.playstationintro{
+    text-align: center;
+    color: black;
+    font-family: Pixelify Sans, 'sans-serif';
+    font-size: 50px;
+}
+
+.playstationimg{
+    width: 250px;
+    border: 5px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.playstationtext{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.playstationtextc{
+    color: black;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.playstationtextf{
+    color: black;
+    font-family: Pixelify Sans, 'sans-serif';
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.subintro{
+    color: black;
+    font-family: Pixelify Sans, 'sans-serif';
+}
+
+.formulario{
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
+}
+
+.boton{
+    width: 80px;
+    height: 30px;
+}
+
+.comentario{
+    height: 30px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contactos{
+    font-size: 30px;
+    
+}
+
+.games{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.cardgame{
+    font-family: Pixelify Sans, 'sans-serif';
+}
+
+.carditem{
+    font-family: Pixelify Sans, 'sans-serif';
+}
+
+
+    @keyframes colores{
+        0%{
+            opacity: 0;
+        }
+        25%{
+            color: yellow;
+            font-size: larger;
+        }
+        50%{
+            color: blue;
+        }
+        100%{
+            color: pink;
+        }
+}
+
+
+
+
